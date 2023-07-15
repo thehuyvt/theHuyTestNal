@@ -16,7 +16,6 @@ public class main {
             for (int j = 0; j < arrTest.length; j++) {
                 if((arr[i]+arr[i+1]).contains(arrTest[j])){
                     result.add(arrTest[j]);
-                    System.out.println(i);
                     if ((i+2) < str.length()-1){
                         i++;
                     }
